@@ -1,0 +1,288 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    margin: 0px;
+}
+img{
+    width: 100%;
+    display: block;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 15px 0;
+}
+ 
+:active{
+    color: aqua;
+}
+ 
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 90vw;
+    margin: 0 auto;
+}
+.btn{
+    background:#fff;
+    border: none;
+    display: block;
+    width: 150px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    background: transparent;
+    font-size: 15px;
+    padding: 12px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    margin: 15px 0;
+}
+.btn:hover{
+    background:#fff ;
+   
+   
+    color: #fff;
+}
+ 
+#header{
+    min-height: 100vh;
+    background:  url("img.header.jpg") center/cover no-repeat;
+    color: #fff;
+}
+ 
+.brand-and-navBtn{
+ 
+    position: relative;
+    z-index: 999;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    font-size: 24px;
+    padding: 15px 25px;
+    color:#ddd;
+}
+.brand-name{
+    letter-spacing: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+ 
+.top-nav ul li{
+    padding: 10px 0;
+}
+ 
+.navBtn{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.navBtn:hover{
+    background: #fff;
+    color: #000;
+}
+.about{
+    margin-top: -160px;
+}
+.about-content img{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+.about-img{
+    background: #fff;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.about-content h2{
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 35px;
+    color:#fff ;
+}
+.about-content h3{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 100;
+    background: rgba(255, 255, 255, 0.1);
+    width: 400px;
+    margin: 35px auto;
+    text-align: center;
+}
+.social-icons{
+    width: 350px;
+    margin: 40px auto 0 auto;
+    padding-bottom: 30px;
+}
+.social-icons ul a{
+    color: #fff;
+    font-size: 30px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-icons ul{
+    display: flex;
+    justify-content: space-around;
+}
+.social-icons ul a:hover{
+    background-color: aqua;
+    border-color:#fff;
+}
+ 
+.navbar{
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 0px;
+    font-family: cursive;
+    font-size: 17px;
+    letter-spacing: 1px;
+    word-spacing: 45px;
+    font-weight: bold;
+    color: #000;
+}
+ 
+.navbar :hover{
+    color: rgb(0, 81, 255);
+}
+.vlog-heading h1{
+     text-align: center;
+     margin-top: 40px;
+     margin-bottom: 20px;
+     padding-left: 50px;
+     position: relative;
+}
+ 
+.gallery .box-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+ 
+.gallery .box-container .box{
+  height:25rem;
+  flex:1 1 30rem;
+  border:.2rem solid rgba(175,175,175,3);
+  box-shadow: 0 .5rem 1rem rgba(201, 201, 201, 0.1);
+  border-radius: .5rem;
+  position: relative;
+  overflow: hidden;
+}
+ 
+.gallery .box-container .box img{
+  height:100%;
+  width:100%;
+  object-fit: cover;
+}
+ 
+.gallery .box-container .box .content{
+  position: absolute;
+  top:-100%; left:0;
+  height: 100%;
+  width:100%;
+  background:rgba(255,255,255,.9);
+  padding:2rem;
+  padding-top: 5rem;
+  text-align: center;
+}
+ 
+.gallery.heading{
+    text-align: center;
+    color: #000;
+ 
+    font-size: 2.5rem;
+  color:rgb(255, 255, 255);
+}
+ 
+.gallery .box-container .box .content p{
+  font-size: 1.5rem;
+  color:rgb(255, 255, 255);
+  padding:1rem 0;
+}
+ 
+.gallery .box-container .box:hover .content{
+  top:0;
+}
+ 
+.contact-me{
+    margin: 40px 0;
+}
+.contact-me .container div{
+    margin: 20px 0;
+}
+.contact-top{
+    text-align: center;
+}
+.contact-top h3{
+    font-size: 28px;
+}
+.contact-top p{
+    font-weight: 300;
+    width: 70%;
+    margin: 0 auto;
+}
+.contact-details div{
+    text-align: center;
+    padding: 25px 0;
+    background: #111;
+    color: #fff;
+}
+.contact-details div span{
+    display: block;
+}
+.contact-icon{
+    font-size: 30px;
+}
+ 
+.contact-details div p{
+    font-weight: 300;
+    opacity: 0.7;
+}
+.contact-bottom{
+    margin-top: 50px;
+}
+ 
+.footer{
+    background-color: #111;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+.footer-container > div{
+    margin: 40px 0;
+}
+.footer-container h2{
+    color: aqua;
+    font-size: 36px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+.footer > p{
+    text-align: center;
+    font-size: 14px;
+}
